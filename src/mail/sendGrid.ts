@@ -1,6 +1,6 @@
 import sgMail from '@sendgrid/mail';
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
+sgMail.setApiKey('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');
 
 interface EmailMessage {
   to: string;

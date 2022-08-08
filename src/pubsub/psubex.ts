@@ -4,7 +4,7 @@ import { google } from 'googleapis';
 import updateHistory from 'db/updateHistory';
 // import sendEmail from '../mail/sendGrid';
 
-import sendEmail from '../mail/sendInBlue';
+import sendEmail from '../mail/sendGrid';
 import base64 from 'base-64';
 import { listLabels } from 'generateCredentials';
 /**
