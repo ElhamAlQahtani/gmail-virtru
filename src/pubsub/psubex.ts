@@ -17,7 +17,35 @@ const timeout = 60;
 // Creates a client; cache this for further use
 const pubSubClient = new PubSub();
 
-const participants = ['ia, 'ealqahta@uncc.edu', 'Lbenne41@uncc.edu', 'georgeshawjr@gmail.com', 'achakra7@uncc.edu', 'jamesdimah737@gmail.com', 'kcarro27@uncc.edu', 'davesamuel400@gmail.com', 'roblurke@gmail.com', 'fhadavan@uncc.edu', 'rarguel1@uncc.edu', 'kklotz@uncc.edu', 'Doviemaganfei72@gmail.com', 'ws6643550@gmail.com', 'mikespencer953@gmail.com', 'shalletkemunto@gmail.com', 'frankfurtbenson@gmail.com', 'annemmaculate60@gmail.com', 'amosboks@gmail.com', 'wvirgin087@gmail.com', 'kennethroland321@gmail.com', 'selinaroberts904@gmail.com', 'danielphilips1779@gmail.com', 'maneabraham91@gmail.com', 'kiragumeru001@gmail.com', 'apate234@uncc.edu', 'htulasi@uncc.edu', 'mzimnoch@uncc.edu'];
+const participants = [
+  'ealqahta@uncc.edu',
+  'Lbenne41@uncc.edu',
+  'georgeshawjr@gmail.com',
+  'achakra7@uncc.edu',
+  'jamesdimah737@gmail.com',
+  'kcarro27@uncc.edu',
+  'davesamuel400@gmail.com',
+  'roblurke@gmail.com',
+  'fhadavan@uncc.edu',
+  'rarguel1@uncc.edu',
+  'kklotz@uncc.edu',
+  'Doviemaganfei72@gmail.com',
+  'ws6643550@gmail.com',
+  'mikespencer953@gmail.com',
+  'shalletkemunto@gmail.com',
+  'frankfurtbenson@gmail.com',
+  'annemmaculate60@gmail.com',
+  'amosboks@gmail.com',
+  'wvirgin087@gmail.com',
+  'kennethroland321@gmail.com',
+  'selinaroberts904@gmail.com',
+  'danielphilips1779@gmail.com',
+  'maneabraham91@gmail.com',
+  'kiragumeru001@gmail.com',
+  'apate234@uncc.edu',
+  'htulasi@uncc.edu',
+  'mzimnoch@uncc.edu',
+];
   export async function listenForMessages(oAuth2Client: OAuth2Client) {
   console.log('start listenting');
   await listLabels(oAuth2Client);
