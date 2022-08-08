@@ -46,4 +46,4 @@
 6. Copy all values from .env into config vars
 7. Run `git push heroku master`
 8. Check application logs to confirm that application is up and running
-9.
+9. a
