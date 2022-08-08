@@ -1,0 +1,10 @@
+/node_modulessendgrid.env
+node_modules
+/.env
+/credentials.json
+/token.json
+/bfg-1.14.0.jar
+/ian
+/service_account.json
+/tokeniandjx.json
+/asds.md

@@ -1,0 +1,1 @@
+worker: node node_modules/cross-env/src/bin/cross-env.js NODE_PATH=./src ts-node-dev --respawn --transpile-only ./src/index.ts
